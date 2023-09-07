@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "1069861418777",
+    "project_id": "attendance-monitor-c9ea4",
+    "storage_bucket": "attendance-monitor-c9ea4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069861418777:android:8e2b8030324c3a06baf788",
+        "android_client_info": {
+          "package_name": "com.example.attendance_monitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069861418777-kml7nnaiat86ao366sgr6d71toq1oahs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHrAFewjb6TfAuoVhqQ8K4nhcyzCCDRfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069861418777-kml7nnaiat86ao366sgr6d71toq1oahs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1069861418777-0fgj9l2s3fi46f5g0c9161kfoahtgobi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.attendanceMonitor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069861418777:android:e7a4c245357eab4ebaf788",
+        "android_client_info": {
+          "package_name": "com.example.untitled1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069861418777-kml7nnaiat86ao366sgr6d71toq1oahs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHrAFewjb6TfAuoVhqQ8K4nhcyzCCDRfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069861418777-kml7nnaiat86ao366sgr6d71toq1oahs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1069861418777-0fgj9l2s3fi46f5g0c9161kfoahtgobi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.attendanceMonitor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
