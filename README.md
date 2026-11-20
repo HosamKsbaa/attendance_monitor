@@ -1,16 +1,42 @@
-# attendance_monitor
+# Attendance Monitor (Flutter + Firebase + QR Code)
 
-A new Flutter project.
+A cross-platform **Flutter** mobile & web application for university/classroom attendance tracking using **Firebase Authentication**, **Cloud Firestore**, and **QR Code** check-ins.
+
+---
+
+## Features
+
+### Teacher Flow (`lib/Teacher/`)
+- Create and manage courses (`Add_Course.dart`, `CourseDetailsPage.dart`)
+- Create lectures and generate lecture-specific QR codes (`AddLecturePage.dart`, `LectureDetailsPage.dart`)
+- View real-time student attendance lists (`StudentListPage.dart`)
+
+### Student Flow (`lib/Student /`)
+- Sign in via Google / Firebase Auth (`sign_in.dart`, `UserDataEntryPage.dart`)
+- Join lectures and view lecture attendance details (`Student.dart`, `LectureDetailsPage_student.dart`)
+
+---
+
+## Tech Stack
+
+- **Framework:** Flutter (Dart)
+- **Backend / Auth:** Firebase Core, Firebase Auth, Firebase UI Auth, Google Sign-In, Firebase App Check
+- **Database:** Cloud Firestore
+- **State Management:** Provider + SharedPreferences
+- **QR Generation:** `qr_flutter`
+- **Observability:** Firebase Analytics & Firebase Performance
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
+2. **Configure Firebase:**
+   Ensure `lib/firebase_options.dart` and your platform Firebase configs (`google-services.json` / `GoogleService-Info.plist`) are linked to your Firebase project.
+3. **Run the app:**
+   ```bash
+   flutter run
+   ```
